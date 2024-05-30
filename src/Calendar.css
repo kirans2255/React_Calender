@@ -1,0 +1,41 @@
+/* src/components/Calendar.css */
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    width: 80%;
+  }
+  
+  .event-box {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .event-box:hover {
+    background: #e0e0e0;
+  }
+  
+  .event-box h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .event-box p {
+    margin: 10px 0 0;
+    font-size: 0.9em;
+  }
+  
